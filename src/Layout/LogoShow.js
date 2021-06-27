@@ -1,7 +1,7 @@
 import React from 'react'
 import facebook from '../Assets/Facebook Logo.png'
 import dribble from '../Assets/Dribbble Logo.png'
-import youtube from '../Assets/Facebook Logo.png'
+import youtube from '../Assets/Youtube Logo.png'
 import pinterest from '../Assets/Pinterest Logo.png'
 import twitter from '../Assets/Twitter Logo.png'
 import reddit from '../Assets/Reddit Logo.png'

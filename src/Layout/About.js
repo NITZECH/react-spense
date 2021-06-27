@@ -1,5 +1,6 @@
 import React from 'react'
 import Phone from '../Assets/Phone Mockup.png'
+import ButtonSecondary from '../Components/Button-secondary'
 const About = () => {
     return (
        <section className="about">
@@ -11,7 +12,8 @@ const About = () => {
     Spense uses Escrow to secure all payments. We believe Escrow offers the highest level of security for your payments so you never need to worry about scams.
 
 </p>
-<button> Learn more about Escrow</button>
+<ButtonSecondary text='Learn more about Escrow' />
+
            </div>
            <div className="about__image">
                <img src={Phone} alt="Phone" />

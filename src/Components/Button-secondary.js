@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ButtonSecondary = () => {
+const ButtonSecondary = (props) => {
     return (
         <>
-            <button className='button__secondary'> Get Started</button>
+            <a  href='/' className='button__secondary'>{props.text} &#8594;</a>
         </>
     )
 }

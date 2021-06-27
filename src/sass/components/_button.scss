@@ -2,13 +2,21 @@
     color: #fff;
     background-color: $color-black;
     border-radius: 8px;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
 
 }
 
 .button__secondary{
     text-decoration: underline;
-    color: grey;
+    color: rgb(56, 55, 55);
+    font-size: 1.6rem;
+    transition: all .8s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover{
+        color: $color-black; 
+        transform: rotate(108deg);
+text-decoration:overline;
+    }
 }
 
 .checkmark{

@@ -1,14 +1,16 @@
 .hero {
+    
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    margin-top: 2rem;
 
     &__intro {
         order: 0;
         width: 65%;
-        padding: 2rem 8rem;
+        padding: 2rem 10rem 2rem 0;
 
         &--title {
             font-weight: 700;
@@ -72,6 +74,27 @@ margin-left: .5rem;
         img {
             width: 100%;
         }
+    }
+
+}
+
+.feature{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    background-color: #fff;
+
+    &__image{
+width: 50%;
+img{
+    width: 100%;
+}
+    }
+    &__info{
+        width: 50%;
     }
 
 }

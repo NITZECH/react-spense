@@ -9,13 +9,13 @@ import LogoShow from '../Layout/LogoShow'
 const Home = () => {
     return (
         <section className='home'>
-        {/* <Navigation /> */}
-        <Header />
+    <Navigation /> 
+     <Header />
         <LogoShow />
         <About />
-        {/* 
-        <Feature /> */}
-        </section>
+        
+        <Feature />
+        </section>  
     )
 }
 
