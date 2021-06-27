@@ -1,0 +1,19 @@
+
+.logoshow{
+    padding: 4rem 0;
+    margin: 0 auto;
+    background-color: #fff;
+    
+    .logoshow__container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &-img{
+        
+        width: 10%;
+        padding: 0 2rem;
+    }
+    }
+}

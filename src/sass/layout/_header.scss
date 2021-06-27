@@ -1,0 +1,77 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+    &__intro {
+        order: 0;
+        width: 65%;
+        padding: 2rem 8rem;
+
+        &--title {
+            font-weight: 700;
+            font-size: 5rem;
+            line-height: 6rem;
+            margin-bottom: 1rem;
+        }
+
+        &--description {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+
+        }
+
+        &--benefits {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-bottom: 2rem;
+
+            &-list {
+               
+                display: flex;
+                align-items: center;
+margin-left: .5rem;    
+                list-style: none;
+                
+                color: $color-black;
+                font-size: 1.5rem;
+                font-weight: 700;
+    
+                &-line{
+                display: flex;
+            justify-content: space-around;        
+            
+                }
+            }
+  }
+  &--form{
+    display: flex;
+    align-items: center;
+    max-width: 60%;
+
+
+    &-input > input{
+        margin-right: 1rem;
+       
+        padding: 1rem;
+        border: 1px solid rgba(128, 128, 128, 0.411);
+    border-radius: 6px;
+    outline: none;
+    }
+   
+}  
+        
+    }
+
+    &__img {
+        width: 35%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+}
